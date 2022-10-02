@@ -62,27 +62,42 @@ public class GeneticAlgorithm {
                 }
 
                 generation[i] = organism;
-
-                // Reproduce the population, generates new individuals
-                for (int j = 1; j < populationSize; j++) {
-                    for(int k = 0; k < organismCards; k++) { // Make new individual (best parent)
-                        if(k<5) {
-                            newGeneration[0][k][0] = generation[primeIndex][k][0];
-                            newGeneration[0][k][1] = generation[primeIndex][k][1];
-                        }else{
-                            //
-                        }
+            }
+            // Reproduce the population, generates new individuals
+            for (int j = 1; j < populationSize; j++) {
+                for(int k = 0; k < organismCards; k++) { // Make new individual (best parent)
+                    if(k<5) {
+                        newGeneration[0][k][0] = generation[primeIndex][k][0];
+                        newGeneration[0][k][1] = generation[primeIndex][k][1];
+                    }else{
+                        anyOrganism = random.nextInt(poolSize);
+                        newGeneration[0][k][0] = generation[anyOrganism][k][0];
+                        newGeneration[0][k][1] = generation[anyOrganism][k][1];
                     }
-                    for(int k = 0; k < organismCards; k++) { // Make new individual (worst parent)
+                }
+                for(int k = 0; k < organismCards; k++) { // Make new individual (worst parent)
+                    if(k<5) {
                         newGeneration[0][k][0] = generation[worstIndex][k][0];
                         newGeneration[0][k][1] = generation[worstIndex][k][1];
+                    }else{
+                        anyOrganism = random.nextInt(poolSize);
+                        newGeneration[0][k][0] = generation[anyOrganism][k][0];
+                        newGeneration[0][k][1] = generation[anyOrganism][k][1];
                     }
-                    for(int k = 0; k < organismCards; k++) { // Make new individual (average parents)
+
+                }
+                for(int k = 0; k < organismCards; k++) { // Make new individual (average parents)
+                    if(k<5) {
                         newGeneration[j][k][0] = generation[j][k][0];
                         newGeneration[j][k][1] = generation[j][k][1];
+                    }else{
+                        anyOrganism = random.nextInt(poolSize);
+                        newGeneration[j][k][0] = generation[anyOrganism][k][0];
+                        newGeneration[j][k][1] = generation[anyOrganism][k][1];
                     }
                 }
             }
+            generation = newGeneration;
         }
         return prime;
     }
