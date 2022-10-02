@@ -17,7 +17,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Map<Integer, String> p = new HashMap<Integer, String>();
+
+        //Map<String, Integer> pool = new HashMap<String, Integer>();
+        //Map<String, Integer> prime = new HashMap<String, Integer>();
+        // Change Card id to int
+        int poolSize = 5;
+        int organismCards = 2;
+        int[][] pool = new int[poolSize][2];
+        int[][] prime = new int[organismCards+1][2];
+
+        GeneticAlgorithm gA = new GeneticAlgorithm();
+        prime = gA.geneticAlgorithm(pool);
     }
 
 
