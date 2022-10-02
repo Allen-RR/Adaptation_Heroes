@@ -8,10 +8,10 @@ import java.util.Random;
 public class GeneticAlgorithm {
     //public  String adaptabilityKey = "Adaptability";
     //public int adaptabilityValue = -1;
-    public int poolSize = 5; // Adaptable
-    public int organismCards = 2; // Adaptable
-    public int populationSize = 3; // Adaptable
-    public int cycles = 10; // Adaptable
+    public int poolSize = 15; // Adaptable
+    public int organismCards = 7; // Adaptable
+    public int populationSize = 10; // Adaptable
+    public int cycles = 50; // Adaptable
     public int anyOrganism = 0;
     public int primeAdaptability = 0;
     public int worstAdaptability = 0;

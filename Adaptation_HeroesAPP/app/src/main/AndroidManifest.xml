@@ -14,15 +14,20 @@
         android:theme="@style/Theme.AdaptationHeroes"
         tools:targetApi="31">
         <activity
+            android:name=".YouFail"
+            android:exported="false" />
+        <activity
+            android:name=".YouWin"
+            android:exported="false" />
+        <activity
             android:name=".SuperPowers"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
-            </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Story4"
             android:exported="false" />
@@ -40,9 +45,7 @@
             android:exported="false" />
         <activity
             android:name=".Inicio"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
