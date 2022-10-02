@@ -1,2 +1,2 @@
-# NASA_Space_Apps_2022
-NASA Space Apps 2022, team: _______
+# Adaptation Heroes
+NASA Space Apps 2022, team: Adaptation Heroes
