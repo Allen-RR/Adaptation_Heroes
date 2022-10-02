@@ -8,6 +8,7 @@
     android:background="@drawable/backgroundone">
 
     <ImageView
+        android:id="@+id/murotexto1"
         android:layout_width="363dp"
         android:layout_height="258dp"
         android:background="#a9a9a9"
@@ -18,7 +19,7 @@
         app:layout_constraintVertical_bias="0.025"></ImageView>
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/cohete1"
         android:layout_width="425dp"
         android:layout_height="443dp"
         android:src="@drawable/cohete"
@@ -30,7 +31,7 @@
         app:layout_constraintVertical_bias="0.565" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/hondas"
         android:layout_width="420dp"
         android:layout_height="358dp"
         android:src="@drawable/hondas"
@@ -42,7 +43,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/humo"
         android:layout_width="411dp"
         android:layout_height="146dp"
         android:src="@drawable/humo"
@@ -54,7 +55,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnNext1"
         android:layout_width="185dp"
         android:layout_height="49dp"
         android:background="#22000000"

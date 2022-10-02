@@ -3,10 +3,10 @@ package dev.hardsoft.adaptationheroes;
 public class Card {
     private String name;
     private Integer value;
-    private String id;
+    private Integer id;
 
 
-    public Card (String id,String name, Integer value){
+    public Card (Integer id,String name, Integer value){
         this.id = id;
         this.name = name;
         this.value = value;
@@ -15,11 +15,11 @@ public class Card {
 
 
     //Getters Setters
-    public String getId(){
+    public Integer getId(){
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
