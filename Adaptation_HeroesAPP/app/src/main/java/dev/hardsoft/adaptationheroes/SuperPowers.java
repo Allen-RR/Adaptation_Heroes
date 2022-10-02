@@ -41,6 +41,7 @@ public class SuperPowers extends AppCompatActivity {
     private boolean First = false;
     private boolean Second = false;
     private int[][] prime;
+    private int score;
     private Button btn_fusion;
 
 
@@ -203,12 +204,15 @@ public class SuperPowers extends AppCompatActivity {
 
         GeneticAlgorithm gA = new GeneticAlgorithm();
         prime = gA.geneticAlgorithm(pool);
-        System.out.println(prime.length);
+        //System.out.println(prime.length);
 
 
-        for (int i = 0; i < prime.length; i++)
-            for (int j = 0; j < prime[i].length; j++)
-        if (prime[0][1]>150){
+        //for (int i = 0; i < prime.length; i++)
+            //for (int j = 0; j < prime[i].length; j++)
+        score = prime[0][1];
+        int gravityRisk = 2*2;
+        score -= gravityRisk;
+        if (score>146){
             Intent i1 = new Intent(SuperPowers.this, YouWin.class);
             startActivity(i1);
         }else{
