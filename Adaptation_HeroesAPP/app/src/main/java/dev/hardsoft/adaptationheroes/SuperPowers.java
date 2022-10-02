@@ -210,9 +210,9 @@ public class SuperPowers extends AppCompatActivity {
         //for (int i = 0; i < prime.length; i++)
             //for (int j = 0; j < prime[i].length; j++)
         score = prime[0][1];
-        int gravityRisk = 2*2;
+        int gravityRisk = 2*2; // Gravity risk for the stage
         score -= gravityRisk;
-        if (score>146){
+        if (score>146){ // An average of multiple testing of genetic algorithm scores
             Intent i1 = new Intent(SuperPowers.this, YouWin.class);
             startActivity(i1);
         }else{
