@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Adaptation Heroes</string>
     <string name="btn_start">START</string>
+    <string name="btn_select">SELECT</string>
 </resources>
