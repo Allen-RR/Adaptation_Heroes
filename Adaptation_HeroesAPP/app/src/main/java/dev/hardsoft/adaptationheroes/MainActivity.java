@@ -17,7 +17,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Map<Integer, String> p = new HashMap<Integer, String>();
+        Map<String, Integer> pool = new HashMap<String, Integer>();
+        Map<String, Integer> prime = new HashMap<String, Integer>();
+
+        prime = GeneticAlgorithm.geneticAlgorithm(pool);
     }
 
 
