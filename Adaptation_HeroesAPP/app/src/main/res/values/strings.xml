@@ -2,4 +2,6 @@
     <string name="app_name">Adaptation Heroes</string>
     <string name="btn_start">START</string>
     <string name="btn_select">SELECT</string>
+    <string name="btn_play">PLAY</string>
+    <string name="btn_next">Next</string>
 </resources>
