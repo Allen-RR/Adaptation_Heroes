@@ -74,7 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-thin"
-                    android:text="Warm"
+                    android:text="Caenorhabditis"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="16sp"
@@ -125,14 +125,14 @@
                     android:layout_width="177dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/gusanito"></ImageView>
+                    android:src="@drawable/rat"></ImageView>
 
                 <TextView
                     android:id="@+id/txtcard2.1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-thin"
-                    android:text="Rat"
+                    android:text="Mus musculus"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="16sp"
@@ -179,14 +179,14 @@
                     android:layout_width="177dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/gusanito"></ImageView>
+                    android:src="@drawable/louse"></ImageView>
 
                 <TextView
                     android:id="@+id/txtcard3.1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-thin"
-                    android:text="Insect"
+                    android:text="Tardigrada"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="16sp"
@@ -233,14 +233,14 @@
                     android:layout_width="177dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/gusanito"></ImageView>
+                    android:src="@drawable/maceta"></ImageView>
 
                 <TextView
                     android:id="@+id/txtcard4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-thin"
-                    android:text="Plant"
+                    android:text="Arabidopsis thaliana"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="16sp"
@@ -287,7 +287,7 @@
                     android:layout_width="177dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/gusanito"></ImageView>
+                    android:src="@drawable/mosquita"></ImageView>
 
                 <TextView
                     android:id="@+id/txtcard5"
@@ -304,6 +304,7 @@
                     android:layout_height="58dp"
                     android:layout_gravity="center"
                     android:text="View"
+                    android:onClick="boton"
                     android:textColor="@color/black"
                     android:background="#77000000">
 
@@ -341,14 +342,14 @@
                     android:layout_width="177dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/gusanito"></ImageView>
+                    android:src="@drawable/pez"></ImageView>
 
                 <TextView
                     android:id="@+id/txtcard6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-thin"
-                    android:text="Fish"
+                    android:text="Danio rerio"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="16sp"

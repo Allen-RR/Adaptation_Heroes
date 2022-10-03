@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class YouFail extends AppCompatActivity {
+public class Next_Mission extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_you_fail);
+        setContentView(R.layout.activity_next_mission);
     }
-    public void Restart(View view){
-        Intent i = new Intent(YouFail.this, SuperPowers.class);
+    public void Finalizar(View view){
+        Intent i = new Intent(Next_Mission.this, Inicio.class);
         startActivity(i);
     }
 }

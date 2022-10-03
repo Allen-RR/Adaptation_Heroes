@@ -4,90 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Story2"
-    android:background="@drawable/backgroundone">
+    android:background="@drawable/backgroundtwo"
+    tools:context=".Next_Mission">
 
     <ImageView
-        android:id="@+id/murotexto1"
-        android:layout_width="363dp"
-        android:layout_height="258dp"
-        android:background="@drawable/rectangletwo"
+        android:id="@+id/imageView1"
+        android:layout_width="302dp"
+        android:layout_height="381dp"
+        android:src="@drawable/planeta_marte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="375dp"
+        android:layout_height="442dp"
+        android:src="@drawable/rectanglethree"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025"></ImageView>
-
-    <ImageView
-        android:id="@+id/cohete1"
-        android:layout_width="425dp"
-        android:layout_height="443dp"
-        android:src="@drawable/cohete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
-
-    <ImageView
-        android:id="@+id/hondas"
-        android:layout_width="420dp"
-        android:layout_height="358dp"
-        android:src="@drawable/hondas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
-        android:id="@+id/humo"
-        android:layout_width="411dp"
-        android:layout_height="146dp"
-        android:src="@drawable/humo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.837" />
 
     <TextView
-        android:id="@+id/txtStory1.1"
-        android:layout_width="290dp"
+        android:layout_width="265dp"
+        android:layout_height="44dp"
+        android:text="FOR YOUR NEXT MISSION"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <TextView
+        android:layout_width="302dp"
         android:layout_height="106dp"
-        android:text="The earth is NO LONGER HABITABLE!
-Humanity migrated to space."
+        android:text="
+Take some time to rest at the space base on the Moon, because your next trip to Mars is going to be one year."
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24dp"
-        android:textStyle="bold"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.653" />
 
     <TextView
-        android:id="@+id/txtStory1.2"
-        android:layout_width="316dp"
-        android:layout_height="150dp"
-        android:text="Your ship is the last one to take off and due to technical issues you are separated from the fleet."
+        android:layout_width="338dp"
+        android:layout_height="106dp"
+        android:text="
+Negative mutations begin to appear in your DNA due to prolonged exposure to space radiation"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24dp"
-        android:textStyle="bold"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
-
+        app:layout_constraintVertical_bias="0.798" />
     <Button
         android:id="@+id/btnNext1"
         android:layout_width="185dp"
@@ -95,8 +81,8 @@ Humanity migrated to space."
         android:background="#22000000"
         android:text="@string/btn_next"
         android:textColor="@color/white"
-        android:textSize="24sp"
-        android:onClick="btnNext1"
+        android:textSize="20sp"
+        android:onClick="Finalizar"
         app:cornerRadius="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

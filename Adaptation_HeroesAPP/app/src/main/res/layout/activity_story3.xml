@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="378dp"
         android:layout_height="276dp"
-        android:background="#a9a9a9"
+        android:background="@drawable/rectangletwo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,11 +61,46 @@
         android:text="@string/btn_next"
         android:textColor="@color/white"
         android:textSize="24sp"
+        android:onClick="btnNext3"
         app:cornerRadius="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.938" />
+
+    <TextView
+        android:id="@+id/txtStory3.1"
+        android:layout_width="303dp"
+        android:layout_height="110dp"
+        android:text="YOUR FIRST MISSION:
+    Exit Earth Orbit and reach the moon."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/txtStory3.2."
+        android:layout_width="318dp"
+        android:layout_height="109dp"
+        android:text="Your body feels weird. The gravitational shift of the ship makes you lose balance and mobility"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

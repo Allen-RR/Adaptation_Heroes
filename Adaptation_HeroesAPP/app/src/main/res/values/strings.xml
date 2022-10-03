@@ -1,7 +1,14 @@
 <resources>
-    <string name="app_name">Adaptation Heroes</string>
+    <string name="app_name">Hybrid Human</string>
     <string name="btn_start">START</string>
     <string name="btn_select">SELECT</string>
     <string name="btn_play">PLAY</string>
     <string name="btn_next">Next</string>
+    <string name="btn_next_level">Next Level</string>
+    <string name="card_warm">Caenorhabditis</string>
+    <string name="card_rat">Mus musculus </string>
+    <string name="card_louise">Tardigrada</string>
+    <string name="card_plant">Arabidopsis thaliana</string>
+    <string name="mosquita">Drosophila</string>
+    <string name="pez">Danio rerio</string>
 </resources>

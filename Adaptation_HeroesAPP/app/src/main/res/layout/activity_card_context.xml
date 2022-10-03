@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardContext"
+    android:background="@drawable/backgroundone">
+
+
+
+    <ImageView
+        android:layout_width="354dp"
+        android:layout_height="286dp"
+        android:src="@drawable/rectangleone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="110dp"
+        android:src="@drawable/planetanueve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="231dp"
+        android:layout_height="171dp"
+        android:src="@drawable/mosquita"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="285dp"
+        android:layout_height="215dp"
+        android:src="@drawable/rectangletwo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:text="Drosophila"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="75dp"
+        android:text="The central nervous system of Drosophila is not affected by the adverse effects of space flight due to artificial gravity."
+        android:textColor="@color/black"
+        android:textSize="12dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="111dp"
+        android:text="Access to full research: Mhatre, S., Iyer, J., Petereit, J., Dolling-Boreham, R., Tyryshkina, A., Paul, A. et al. (2022). Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster. Cell Reports, 40(10), 111279. doi: 10.1016/j.celrep.2022.111279"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.728" />
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="72dp"
+        android:text="
+Favorable changes in the CNS have been reported aboard the International Space Station in response to the microgravity of spaceflight."
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+    <Button
+        android:id="@+id/btn_Fusion"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:background="#22000000"
+        android:text="BACK"
+        android:onClick="back"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

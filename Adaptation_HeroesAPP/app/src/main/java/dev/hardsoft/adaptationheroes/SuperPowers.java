@@ -134,23 +134,23 @@ public class SuperPowers extends AppCompatActivity {
     public void compile(String text){
 
         switch(text){
-            case "Warm":
-                card1 = new Card(1,"Warm",30);
+            case "Caenorhabditis":
+                card1 = new Card(1,"Warm",21);
                 break;
-            case "Rat":
+            case "Mus musculus":
                 card2 = new Card(2,"Rat",50);
                 break;
-            case "Insect":
-                card3= new Card(3,"Insect",25);
+            case "Tardigrada":
+                card3= new Card(3,"Insect",19);
                 break;
-            case "Plant":
+            case "Arabidopsis thaliana":
                 card4 = new Card(4,"Plant",35);
                 break;
             case "Drosophila":
                 card5= new Card(5,"Drosophila",65);
                 break;
-            case "Fish":
-                card6 = new Card(6,"Fish",28);
+            case "Danio rerio":
+                card6 = new Card(6,"Fish",20);
                 break;
             default:
                 Toast.makeText(this, "Hubo un error", Toast.LENGTH_SHORT).show();
@@ -180,6 +180,8 @@ public class SuperPowers extends AppCompatActivity {
 
     }
     public void boton(View view){
+        Intent i = new Intent(SuperPowers.this, CardContext.class);
+        startActivity(i);
 
 
     }
@@ -212,7 +214,7 @@ public class SuperPowers extends AppCompatActivity {
         score = prime[0][1];
         int gravityRisk = 2*2; // Gravity risk for the stage
         score -= gravityRisk;
-        if (score>146){ // An average of multiple testing of genetic algorithm scores
+        if (score>160){ // An average of multiple testing of genetic algorithm scores
             Intent i1 = new Intent(SuperPowers.this, YouWin.class);
             startActivity(i1);
         }else{

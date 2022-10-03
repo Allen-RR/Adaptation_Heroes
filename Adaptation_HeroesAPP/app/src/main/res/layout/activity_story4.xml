@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="390dp"
         android:layout_height="403dp"
-        android:background="#a9a9a9"
+        android:background="@drawable/rectanglefour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +33,7 @@
         android:layout_height="49dp"
         android:background="#22000000"
         android:text="@string/btn_next"
+        android:onClick="btnNext2"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:cornerRadius="20sp"
@@ -41,5 +42,53 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.938" />
+
+    <TextView
+        android:id="@+id/txtStory2.1"
+        android:layout_width="346dp"
+        android:layout_height="181dp"
+        android:text="In space you expose yourself to certain risks: radiation, isolation, the enormous distances, simulated gravity and hostile environments."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/txtStory2.2"
+        android:layout_width="341dp"
+        android:layout_height="180dp"
+        android:text="Some organisms will help you with their superpowers that adapt to space.
+Choose carefully to make it to the space base alive."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <TextView
+        android:id="@+id/txtStory2.3"
+        android:layout_width="297dp"
+        android:layout_height="38dp"
+        android:text="CAN YOU SURVIVE?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
